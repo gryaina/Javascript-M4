@@ -1,0 +1,36 @@
+body {
+  margin: 0px;
+  background-color: #dec9cb;
+}
+
+h1 {
+  font-size: 3em;
+  font-family: arial;
+  text-align: center;
+  padding-top: 40px;
+}
+
+section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+ul {
+  list-style-type: none;
+  background-color: snow;
+  width: 200px;
+  padding: 20px;
+  margin: 50px;
+  border-radius: 10px;
+  align-items: center;
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.15), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+li {
+  background-color: snow;
+  padding: 5px;
+}
+
+p {
+  font-family: arial;
+}
